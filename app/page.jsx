@@ -2,6 +2,7 @@ import { Barn } from '@/components/Barn/Barn';
 import { Welcome } from '../components/Welcome/Welcome';
 import '@mantine/carousel/styles.css';
 import { Carousel } from '@mantine/carousel';
+import { Title, Text } from '@mantine/core';
 
 // import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
 import { Hero } from '@/components/Hero/Hero';
@@ -14,13 +15,21 @@ export default function HomePage() {
     <>
       <Welcome />
       <Hero />
-      Barn
+      <Title my="lg" align="center">
+        Barn
+      </Title>
       <Barn />
-      Koi Pond area
+      <Title my="lg" align="center">
+        Koi Pond
+      </Title>
       <Koi />
-      Prairie
+      <Title my="lg" align="center">
+        Prairie
+      </Title>
       <Prairie />
-      Savannah
+      <Title my="lg" align="center">
+        Savannah
+      </Title>
       <Savannah />
       {/* <ColorSchemeToggle /> */}
     </>

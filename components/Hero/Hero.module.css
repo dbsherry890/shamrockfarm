@@ -18,8 +18,8 @@
 }
 
 .title {
-  font-weight: 400;
-  font-size: rem(40px);
+  font-weight: 300;
+  font-size: rem(48px);
   letter-spacing: rem(-1px);
   padding-left: var(--mantine-spacing-md);
   padding-right: var(--mantine-spacing-md);

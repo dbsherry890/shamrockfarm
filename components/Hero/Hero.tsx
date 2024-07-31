@@ -8,11 +8,11 @@ export function Hero() {
       <Overlay color="#000" opacity={0.65} zIndex={1} />
 
       <div className={classes.inner}>
-        <Title className={classes.title}>Est. 2008</Title>
+        <Title className={classes.title}>Clifton Township, WI</Title>
 
         <Container size={640}>
-          <Text size="lg" className={classes.description}>
-            Best place on Earth
+          <Text size="xl" className={classes.description}>
+            Est. 2008
           </Text>
         </Container>
 
