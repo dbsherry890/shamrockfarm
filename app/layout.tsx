@@ -1,7 +1,9 @@
 import '@mantine/core/styles.css';
+import '@mantine/carousel/styles.css';
 import React from 'react';
 import { MantineProvider, ColorSchemeScript } from '@mantine/core';
 import { theme } from '../theme';
+import { Carousel } from '@mantine/carousel';
 
 export const metadata = {
   title: 'Shamrock Farm',
