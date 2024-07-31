@@ -8,12 +8,11 @@ export function Hero() {
       <Overlay color="#000" opacity={0.65} zIndex={1} />
 
       <div className={classes.inner}>
-        <Title className={classes.title}>Shamrock yuh</Title>
+        <Title className={classes.title}>Est. 2008</Title>
 
         <Container size={640}>
           <Text size="lg" className={classes.description}>
-            Build more reliable software with AI companion. AI is also trained to detect lazy
-            developers who do nothing and just complain on Twitter.
+            Best place on Earth
           </Text>
         </Container>
 
