@@ -15,21 +15,21 @@ export default function HomePage() {
     <>
       <Welcome />
       <Hero />
-      <Title my="lg" align="center">
-        Barn
-      </Title>
+      <div style={{ width: '80%' }}>
+        <h2 style={{ margin: 'auto' }}>Barn</h2>
+      </div>
       <Barn />
-      <Title my="lg" align="center">
-        Koi Pond
-      </Title>
+      <div>
+        <h2 style={{ width: '50%', margin: 'auto', borderStyle: 'solid' }}>Koi Pond</h2>
+      </div>
       <Koi />
-      <Title my="lg" align="center">
-        Prairie
-      </Title>
+      <div>
+        <h2 style={{ width: 50, margin: 'auto' }}>Prairie</h2>
+      </div>
       <Prairie />
-      <Title my="lg" align="center">
-        Savannah
-      </Title>
+      <div>
+        <h2 style={{ width: 50, margin: 'auto' }}>Savannah</h2>
+      </div>
       <Savannah />
       {/* <ColorSchemeToggle /> */}
     </>
