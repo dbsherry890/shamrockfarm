@@ -10,37 +10,49 @@ export function Prairie() {
         justifyContent: 'space-around',
       }}
     >
-      <Image
-        src="/images/prairie/prairie-1.png"
-        alt="Lovely prairie image"
-        width={340}
-        height={280}
-        priority
-      />
-      <Image
-        src="/images/prairie/prairie-2.png"
-        alt="Lovely prairie image"
-        width={340}
-        height={280}
-      />
-      <Image
-        src="/images/prairie/prairie-3.png"
-        alt="Lovely prairie image"
-        width={340}
-        height={280}
-      />
-      <Image
-        src="/images/prairie/prairie-4.png"
-        alt="Lovely prairie image"
-        width={340}
-        height={280}
-      />
-      <Image
-        src="/images/prairie/prairie-5.png"
-        alt="Lovely prairie image"
-        width={340}
-        height={280}
-      />
+      <div style={{ padding: 2 }}>
+        <Image
+          src="/images/prairie/prairie-1.png"
+          alt="Lovely prairie image"
+          width={340}
+          height={280}
+          priority
+        />
+      </div>
+      <div style={{ padding: 2 }}>
+        <Image
+          src="/images/prairie/prairie-2.png"
+          alt="Lovely prairie image"
+          width={340}
+          height={280}
+        />
+      </div>
+      <div style={{ padding: 2 }}>
+        <Image
+          src="/images/prairie/prairie-3.png"
+          alt="Lovely prairie image"
+          width={340}
+          height={280}
+        />
+      </div>
+
+      <div style={{ padding: 2 }}>
+        <Image
+          src="/images/prairie/prairie-4.png"
+          alt="Lovely prairie image"
+          width={340}
+          height={280}
+        />
+      </div>
+
+      <div style={{ padding: 2 }}>
+        <Image
+          src="/images/prairie/prairie-5.png"
+          alt="Lovely prairie image"
+          width={340}
+          height={280}
+        />
+      </div>
     </div>
   );
 }

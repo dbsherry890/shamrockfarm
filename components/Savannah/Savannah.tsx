@@ -10,48 +10,70 @@ export function Savannah() {
         justifyContent: 'space-around',
       }}
     >
-      <Image
-        src="/images/savannah/savannah-2.png"
-        alt="Lovely savannah image"
-        width={340}
-        height={280}
-      />
-      <Image
-        src="/images/savannah/savannah-3.png"
-        alt="Lovely savannah image"
-        width={340}
-        height={280}
-      />
-      <Image
-        src="/images/savannah/savannah-4.png"
-        alt="Lovely savannah image"
-        width={340}
-        height={280}
-      />
-      <Image
-        src="/images/savannah/savannah-5.png"
-        alt="Lovely savannah image"
-        width={340}
-        height={280}
-      />
-      <Image
-        src="/images/savannah/savannah-6.png"
-        alt="Lovely savannah image"
-        width={340}
-        height={280}
-      />
-      <Image
-        src="/images/savannah/savannah-7.png"
-        alt="Lovely savannah image"
-        width={340}
-        height={280}
-      />
-      <Image
-        src="/images/savannah/savannah-8.png"
-        alt="Lovely savannah image"
-        width={340}
-        height={280}
-      />
+      <div style={{ padding: 2 }}>
+        <Image
+          src="/images/savannah/savannah-1.png"
+          alt="Lovely savannah image"
+          width={340}
+          height={280}
+        />
+      </div>
+      <div style={{ padding: 2 }}>
+        <Image
+          src="/images/savannah/savannah-2.png"
+          alt="Lovely savannah image"
+          width={340}
+          height={280}
+        />
+      </div>
+      <div style={{ padding: 2 }}>
+        <Image
+          src="/images/savannah/savannah-3.png"
+          alt="Lovely savannah image"
+          width={340}
+          height={280}
+        />
+      </div>
+      <div style={{ padding: 2 }}>
+        <Image
+          src="/images/savannah/savannah-4.png"
+          alt="Lovely savannah image"
+          width={340}
+          height={280}
+        />
+      </div>
+      <div style={{ padding: 2 }}>
+        <Image
+          src="/images/savannah/savannah-5.png"
+          alt="Lovely savannah image"
+          width={340}
+          height={280}
+        />
+      </div>
+      <div style={{ padding: 2 }}>
+        <Image
+          src="/images/savannah/savannah-6.png"
+          alt="Lovely savannah image"
+          width={340}
+          height={280}
+        />
+      </div>
+      <div style={{ padding: 2 }}>
+        <Image
+          src="/images/savannah/savannah-7.png"
+          alt="Lovely savannah image"
+          width={340}
+          height={280}
+        />
+      </div>
+      <div style={{ padding: 2 }}>
+        <Image
+          src="/images/savannah/savannah-8.png"
+          alt="Lovely savannah image"
+          width={340}
+          height={280}
+        />
+      </div>
     </div>
   );
 }
