@@ -33,6 +33,13 @@ export function Barn() {
         height={280}
         priority
       />
+      <Image
+        src="/images/barn/barn-5.png"
+        alt="Lovely barn image"
+        width={340}
+        height={280}
+        priority
+      />
     </div>
   );
 }

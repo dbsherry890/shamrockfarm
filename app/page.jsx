@@ -1,8 +1,6 @@
 import { Barn } from '@/components/Barn/Barn';
 import { Welcome } from '../components/Welcome/Welcome';
 import '@mantine/carousel/styles.css';
-import { Carousel } from '@mantine/carousel';
-import { Title, Text } from '@mantine/core';
 
 // import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
 import { Hero } from '@/components/Hero/Hero';

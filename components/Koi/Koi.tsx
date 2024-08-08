@@ -40,6 +40,12 @@ export function Koi() {
       <div style={{ padding: 2 }}>
         <Image src="/images/koi/koi-10.png" alt="Lovely koi image" width={340} height={280} />
       </div>
+      <div style={{ padding: 2 }}>
+        <Image src="/images/koi/koi-11.png" alt="Lovely koi image" width={340} height={280} />
+      </div>
+      <div style={{ padding: 2 }}>
+        <Image src="/images/koi/koi-12.png" alt="Lovely koi image" width={340} height={280} />
+      </div>
     </div>
   );
 }

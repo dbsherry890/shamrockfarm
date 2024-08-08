@@ -53,6 +53,30 @@ export function Prairie() {
           height={280}
         />
       </div>
+      <div style={{ padding: 2 }}>
+        <Image
+          src="/images/prairie/prairie-6.png"
+          alt="Lovely prairie image"
+          width={340}
+          height={280}
+        />
+      </div>
+      <div style={{ padding: 2 }}>
+        <Image
+          src="/images/prairie/prairie-7.png"
+          alt="Lovely prairie image"
+          width={340}
+          height={280}
+        />
+      </div>
+      <div style={{ padding: 2 }}>
+        <Image
+          src="/images/prairie/prairie-8.png"
+          alt="Lovely prairie image"
+          width={340}
+          height={280}
+        />
+      </div>
     </div>
   );
 }
